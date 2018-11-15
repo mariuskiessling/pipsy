@@ -1,6 +1,6 @@
 {
   "name": "PIPsy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "manifest_version": 2,
   "description": "Easily pop out any video player into a PIP window.",
   "homepage_url": "https://mariuskiessling.de",
@@ -19,9 +19,7 @@
     "default_icon": "icons/icon_19.png"
   },
   "permissions": [
-    "activeTab",
-    "https://*/*",
-    "http://*/*"
+    "activeTab"
   ],
   "content_scripts": [
     {
