@@ -1,5 +1,5 @@
 {
-  "name": "PIPsy",
+  "name": "PIPsy - PIP out your video player!",
   "version": "1.0.1",
   "manifest_version": 2,
   "description": "Easily pop out any video player into a PIP window.",
@@ -24,7 +24,10 @@
   "content_scripts": [
     {
       "matches": [
-        "https://*/*"
+        "https://*.amazon.de/*",
+        "https://*.netflix.com/*",
+        "https://*.skygo.sky.de/*",
+        "https://*.youtube.com/*"
       ],
       "js": [
         "src/pipsy.js"
