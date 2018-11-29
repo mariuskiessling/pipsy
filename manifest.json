@@ -1,6 +1,6 @@
 {
   "name": "PIPsy - PIP out your video player!",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "manifest_version": 2,
   "description": "Easily pop out any video player into a PIP window.",
   "homepage_url": "https://mariuskiessling.de",
